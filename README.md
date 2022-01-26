@@ -26,6 +26,7 @@ Once it was ready all the following cases you can download or fork, the reposito
  $catkin_make
 ```
 To compile the new packages installed on workspace, remember to use catkin_make in the workspace root file
+
 2. Start two launch files:
 ```
 $roslaunch final_assignment simulation_gmapping.launch
