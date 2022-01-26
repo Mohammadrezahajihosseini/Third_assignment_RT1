@@ -54,4 +54,6 @@ After following this command you will see in the terminal window asking you to e
 $rosrun final_assignment keyboard.py
 ```
 The user can guide the robot in the Gazebo area with the keyboard, all the necessary instructions are reported in the terminal window. User must view a screen like this:
-![photo_2022-01-26_11-50-54](https://user-images.githubusercontent.com/80394968/151151669-049699bb-a28a-4c09-a523-578ad2211df5.jpg)
+![photo_2022-01-26_11-56-49](https://user-images.githubusercontent.com/80394968/151151753-6be09f8f-6fc7-4b94-9e5d-114f78c9aae0.jpg)
+
+
