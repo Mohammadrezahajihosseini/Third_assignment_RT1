@@ -34,6 +34,9 @@ $roslaunch final_assignment move_base.launch
 ```
 Practically with the first launch file you start the Gazebo and rviz simulator and you can see robots within the Gazebo and with second launch file you use to know the map and obstacles that is used to send goal to the robot.
 
+Now then visualize this map in your system:
+![photo_2022-01-26_11-50-54](https://user-images.githubusercontent.com/80394968/151150507-fb636911-7eff-4a1c-8d6b-32914645cd42.jpg)
+
 It can happen to run the following launch files many times and finding an error on the operating system part (in my case linux) log file disk is full, because the directory that contains the cache file has a limited size so it can cause this. You can solve the following problem by doing:
 ```
 $rosclean purge
