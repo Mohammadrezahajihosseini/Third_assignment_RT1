@@ -26,3 +26,9 @@ Once it was ready all the following cases you can download or fork, the reposito
  $catkin_make
 ```
 To compile the new packages installed on workspace, remember to use catkin_make in the workspace root file
+2. Start two launch files:
+```
+$roslaunch final_assignment simulation_gmapping.launch
+$roslaunch final_assignment move_base.launch
+```
+Practically with the first launch file you start the Gazebo and rviz simulator and you can see robots within the Gazebo and with second launch file you use to know the map and obstacles that is used to send goal to the robot.
