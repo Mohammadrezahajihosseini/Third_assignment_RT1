@@ -48,3 +48,10 @@ Clears all cache files created by the system. Be careful in some cases it can al
 $rosrun final_assignment find_target.py
 ```
 After following this command you will see in the terminal window asking you to enter the coordinates to search by the robot. The robot has 30 seconds timeout to find the target, if there is it before the task ends and asks for new coordinates otherwise the task fails and asks the user to enter new coordinates to reach.
+
+4. To make second part work:
+```
+$rosrun final_assignment keyboard.py
+```
+The user can guide the robot in the Gazebo area with the keyboard, all the necessary instructions are reported in the terminal window. User must view a screen like this:
+![photo_2022-01-26_11-50-54](https://user-images.githubusercontent.com/80394968/151151669-049699bb-a28a-4c09-a523-578ad2211df5.jpg)
