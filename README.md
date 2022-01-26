@@ -33,3 +33,13 @@ $roslaunch final_assignment simulation_gmapping.launch
 $roslaunch final_assignment move_base.launch
 ```
 Practically with the first launch file you start the Gazebo and rviz simulator and you can see robots within the Gazebo and with second launch file you use to know the map and obstacles that is used to send goal to the robot.
+It can happen to run the following launch files many times and finding an error on the operating system part (in my case linux) log file disk is full, because the directory that contains the cache file has a limited size so it can cause this. You can solve the following problem by doing:
+```
+$rosclean purge
+```
+Clears all cache files created by the system. Be careful in some cases it can also delete the cache important files so used only in case of need.
+3. To make the first part work:
+```
+$rosrun final_assignment find_target.py
+```
+After following this command you will see in the terminal window asking you to enter the coordinates to search by the robot. The robot has 30 seconds timeout to find the target, if there is it before the task ends and asks for new coordinates otherwise the task fails and asks the user to enter new coordinates to reach.
