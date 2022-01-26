@@ -67,5 +67,7 @@ Remember for this part a konsole opens in the system to guide the robot. If you 
 $sudo apt-get update
 $sudo apt-get install konsole
 ```
+Dynamic graph of what’s going on in the system
 
+![photo_2022-01-26_19-06-21](https://user-images.githubusercontent.com/80394968/151221363-f6d84de5-d43d-46db-ab85-bd5434a9b2ae.jpg)
 
