@@ -71,3 +71,11 @@ Dynamic graph of what’s going on in the system
 
 ![photo_2022-01-26_19-06-21](https://user-images.githubusercontent.com/80394968/151221363-f6d84de5-d43d-46db-ab85-bd5434a9b2ae.jpg)
 
+Flowchart(General idea behind the program)
+----------------------
+Structure of the first part
+![Immagine 2022-01-26 202719](https://user-images.githubusercontent.com/80394968/151232902-d5e477ba-b2c5-4b06-aea0-e8fb43b75c78.jpg)
+
+Structure of the second part
+![Immagine 2022-01-26 202822](https://user-images.githubusercontent.com/80394968/151233142-af56c67a-9ed2-47b2-88bd-e73f8d451c0e.jpg)
+
