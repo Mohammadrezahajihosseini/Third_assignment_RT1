@@ -56,4 +56,16 @@ $rosrun final_assignment keyboard.py
 The user can guide the robot in the Gazebo area with the keyboard, all the necessary instructions are reported in the terminal window. User must view a screen like this:
 ![photo_2022-01-26_11-56-49](https://user-images.githubusercontent.com/80394968/151151753-6be09f8f-6fc7-4b94-9e5d-114f78c9aae0.jpg)
 
+5. To make third part work:
+```
+$roslaunch final_assignment assignment3.launch
+```
+For this part I used a launch file because there are more than one node to follow at the same time. The first node to guide with the keyboard the second node so as not to go against obstacles and the third node in case of finding a wall begins to follow it and not touch it even if the user forces him to go towards the wall.
+
+Remember for this part a konsole opens in the system to guide the robot. If you have not installed konsole package you may have errors on execution of the program. To install it you can do: 
+```
+$sudo apt-get update
+$sudo apt-get install konsole
+```
+
 
