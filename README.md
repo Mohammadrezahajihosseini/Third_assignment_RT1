@@ -13,5 +13,5 @@ Developed code written in ros area in python language, it is possible to develop
 Materials and Methods
 =========================
 
-To make the following codes work on your system, you need to install the slam_gmapping package form:
-https://github.com/CarmineD8/slam_gmapping
+To make the following codes work on your system, you need to install the slam_gmapping package form: https://github.com/CarmineD8/slam_gmapping .The package can be downloaded from the following repository or by using fork directly in your ros workspace.
+Actionlib stack was used in the developed code. Therefore you have to install actionlib in your repository, in case of lack of installation you can receive errors of type lack of attribution in the SimpleActionCliente or any type of attribution error on actionlib stack. For actionlib installation package to have more information can be found on: http://wiki.ros.org/actionlib.
