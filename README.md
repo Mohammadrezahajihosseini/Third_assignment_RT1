@@ -20,7 +20,9 @@ Actionlib stack was used in the developed code. Therefore you have to install ac
 Installing and running
 ----------------------
 Once it was ready all the following cases you can download or fork, the repository in your workspace. At this stage to start the simulation you have to do:
-1.Use:
-$catkin_make
+
+1. Use: 
+```
+ $catkin_make
 ```
 To compile the new packages installed on workspace, remember to use catkin_make in the workspace root file
